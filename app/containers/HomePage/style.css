@@ -36,6 +36,7 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .mediaType{
@@ -47,7 +48,8 @@ form {
 
 .postContainer{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .dropdown{
